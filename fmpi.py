@@ -56,7 +56,7 @@ class DoubanPi(object):
             logging.info('Start FM')
         else:
             logging.info('Stop FM')
-        self._fmc('toggle')
+        print self._fmc('toggle')
 
     def _like(self, button):
         logging.info('Like')
